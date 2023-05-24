@@ -56,6 +56,7 @@ The project follows a standard structure which segregates the page objects, test
 
     Install Java JDK.
     Install Maven.
+    Install Allure.
     Clone the repository.
     Navigate to the project root directory and run mvn clean install to install all dependencies and build the project.
 
