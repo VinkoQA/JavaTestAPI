@@ -1,6 +1,7 @@
 package tests;
 
 import endpoints.SitesGetEndpoint;
+import io.qameta.allure.Step;
 import lib.BaseTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -32,6 +33,7 @@ public class SitesGetTest extends BaseTest {
     private SitesGetEndpoint sitesGetEndpoint;
 
     @BeforeEach
+    @Step("Setting up the test")
     public void setUp() {
         super.setUp();
         sitesGetEndpoint = getEndpointInstance(SitesGetEndpoint.class);
